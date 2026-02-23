@@ -4,24 +4,18 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        /*String nome = "Joao";
-        //idade="30";//TEXTO
-        System.out.println(nome);
-        System.out.println(nome.length());//quantas letras
-        System.out.println(nome.toUpperCase());//ficar maiusculo
-        System.out.println(nome.toLowerCase());//minusculo
-        System.out.println(nome.getBytes());//bytes
-        System.out.println(nome.replace("Joao", "Gabriel"));//mostrar o tamanho */
-        int horas = 3;
-        int primeiraHora = 10;
-        int segundaHora = 4;
-        int terceiraHora = 2;
-
-
-        int soma = primeiraHora+segundaHora+terceiraHora;
-        double media = soma/horas;
-
-        System.out.println("Total: " + soma);
-        System.out.println("Media: "+media);
+        var inteira = 30;
+        var meia = 15;
+        var qtmeia = 5;
+        var qtinteira = 8;
+        var totalinteiro = 8 * 30;
+        var totalmeia = 5 * 15;
+        var valortotal = totalmeia + totalinteiro;
+        var valormedio = valortotal/(inteira+meia);
+        System.out.println("Total DAS Inteiras: " + totalinteiro);
+        System.out.println("Total DAS Meias: " + totalmeia);
+        System.out.println("Total De todas: "+valortotal);
+        System.out.println("Valor Medio: "+valormedio);
     }
+    
 }
